@@ -34,6 +34,8 @@
   },
   "name":"ProjectXyZ",
   "resources":[
+    {"id":{"name":"obj_GameManager","path":"objects/obj_GameManager/obj_GameManager.yy",},},
+    {"id":{"name":"obj_Building","path":"objects/obj_Building/obj_Building.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
