@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Building",
+  "%Name":"obj_Goblin",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Building",
+  "name":"obj_Goblin",
   "overriddenProperties":[],
   "parent":{
-    "name":"buildings",
-    "path":"folders/Objects/buildings.yy",
+    "name":"enemies",
+    "path":"folders/Objects/enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Enemy",
+    "path":"objects/obj_Enemy/obj_Enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Goblin",
+    "path":"sprites/spr_Goblin/spr_Goblin.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

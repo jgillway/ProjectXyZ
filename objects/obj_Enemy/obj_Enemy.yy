@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Building",
+  "%Name":"obj_Enemy",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Building",
+  "name":"obj_Enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"buildings",
-    "path":"folders/Objects/buildings.yy",
+    "name":"enemies",
+    "path":"folders/Objects/enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Building",
+  "%Name":"obj_Arrow_Tower",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Building",
+  "name":"obj_Arrow_Tower",
   "overriddenProperties":[],
   "parent":{
-    "name":"buildings",
-    "path":"folders/Objects/buildings.yy",
+    "name":"towers",
+    "path":"folders/Objects/towers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Arrow_Tower",
+    "path":"sprites/spr_Arrow_Tower/spr_Arrow_Tower.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
