@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Towers",
+  "%Name":"obj_Tower",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Towers",
+  "name":"obj_Tower",
   "overriddenProperties":[],
   "parent":{
     "name":"towers",

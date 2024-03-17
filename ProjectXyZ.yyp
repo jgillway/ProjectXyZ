@@ -46,7 +46,7 @@
     {"id":{"name":"obj_GameManager","path":"objects/obj_GameManager/obj_GameManager.yy",},},
     {"id":{"name":"obj_Goblin","path":"objects/obj_Goblin/obj_Goblin.yy",},},
     {"id":{"name":"obj_Inn","path":"objects/obj_Inn/obj_Inn.yy",},},
-    {"id":{"name":"obj_Towers","path":"objects/obj_Towers/obj_Towers.yy",},},
+    {"id":{"name":"obj_Tower","path":"objects/obj_Tower/obj_Tower.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_Goblin","path":"sprites/spr_Goblin/spr_Goblin.yy",},},
     {"id":{"name":"spr_Inn","path":"sprites/spr_Inn/spr_Inn.yy",},},
