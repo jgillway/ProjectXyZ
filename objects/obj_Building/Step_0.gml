@@ -1,4 +1,5 @@
 /// @description Insert description here
-if (health <= 0) {
-		show_debug_message("hit the parent health < 0");
+if (_health <= 0) {
+	show_debug_message("Building " + string(name) + " is dead");
+	instance_destroy();
 }

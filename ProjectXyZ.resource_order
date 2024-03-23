@@ -7,6 +7,7 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"buildings","order":2,"path":"folders/Objects/buildings.yy",},
     {"name":"enemies","order":3,"path":"folders/Objects/enemies.yy",},
+    {"name":"scripts","order":5,"path":"folders/Objects/scripts.yy",},
     {"name":"towers","order":4,"path":"folders/Objects/towers.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},

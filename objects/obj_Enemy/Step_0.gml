@@ -1,6 +1,6 @@
 /// @description Insert description here
-if (health <= 0) {
-	show_debug_message("goblin killed from parent");	
+if (_health <= 0) {
+	instance_destroy();
 }
 
 // Create a list to store instances
@@ -49,15 +49,14 @@ if (_closest_target != noone) {
 	}
 }
 
-if (attacking) {
+if (attacking && _closest_target != noone){
 	if (initial_attack) {
-		show_debug_message("parent initial attacking! " + string(current_time));
-		show_debug_message(string(name));
+		scr_attack(_closest_target, damage);
 		initial_attack = false;
+		last_attack_timer = current_time;
 	}
 	else if (current_time - last_attack_timer >= attack_speed) {
-		show_debug_message("parent object attacking! " + string(current_time));
-		show_debug_message(string(attack_speed));
+		scr_attack(_closest_target, damage);
 		last_attack_timer = current_time;
 	}
 }

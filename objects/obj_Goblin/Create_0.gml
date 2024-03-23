@@ -4,7 +4,7 @@ event_inherited();
 
 name = "Goblin";
 level = 1;
-health = 20;
+_health = 50;
 damage = 10;
 attack_range = 30;
 move_speed = 5;

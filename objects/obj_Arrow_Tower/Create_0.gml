@@ -1,6 +1,7 @@
 /// @description Insert description here
-health = 100;
+name = "Arrow Tower";
+_health = 100;
 damage = 10;
-attack_speed = 5;
-attack_range = 10;
+attack_speed = 1000;
+attack_range = 50;
 projectiles = 1;

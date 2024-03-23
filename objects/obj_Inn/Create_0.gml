@@ -4,4 +4,5 @@
 // Inherit the parent event
 event_inherited();
 name = "Inn";
+_health = 100;
 
