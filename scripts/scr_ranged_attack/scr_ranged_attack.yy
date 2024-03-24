@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"scr_attack",
+  "%Name":"scr_ranged_attack",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_attack",
+  "name":"scr_ranged_attack",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

@@ -21,13 +21,26 @@ with (obj_Enemy) {
 if (_closest_enemy != noone && _shortest_enemy_distance <= attack_range) {
     // Attack the target based on attack speed
     if (initial_attack) {	
-        // Call the attack function
-        scr_attack(_closest_enemy, damage);
+		// Call the attack function
+		if (ranged_tower) {
+			scr_ranged_attack(self, _closest_enemy, projectile, damage, projectile_speed);
+		}
+		else {
+			scr_attack(_closest_enemy, damage);
+		}
+
         initial_attack = false;
 		last_attack_timer = current_time;
     }
 	else if (current_time - last_attack_timer >= attack_speed) {
-		scr_attack(_closest_enemy, damage);
+		// Call the attack function
+		if (ranged_tower) {
+			scr_ranged_attack(self, _closest_enemy, projectile, damage, projectile_speed);
+		}
+		else {
+			scr_attack(_closest_enemy, damage);
+		}
+
         last_attack_timer = current_time;
 	}
 }
