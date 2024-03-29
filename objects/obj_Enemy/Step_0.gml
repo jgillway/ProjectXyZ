@@ -21,8 +21,8 @@ var _closest_target = noone;
 var _shortest_distance = -1;
 
 // Loop through all targets in the list
-for (var i = 0; i < ds_list_size(_targets); i++) {
-	var _target = ds_list_find_value(_targets, i);
+for (var _i = 0; _i < ds_list_size(_targets); _i++) {
+	var _target = ds_list_find_value(_targets, _i);
 	var _distance = point_distance(x, y, _target.x, _target.y);
 
 	if (_shortest_distance == -1 || _distance < _shortest_distance) {

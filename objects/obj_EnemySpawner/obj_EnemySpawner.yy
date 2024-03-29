@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Active_Enemy_Spawner",
+    "path":"sprites/spr_Active_Enemy_Spawner/spr_Active_Enemy_Spawner.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

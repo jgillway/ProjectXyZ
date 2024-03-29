@@ -26,10 +26,11 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_Arrow_Tower","order":1,"path":"objects/obj_Arrow_Tower/obj_Arrow_Tower.yy",},
+    {"name":"obj_EnemySpawner","order":7,"path":"objects/obj_EnemySpawner/obj_EnemySpawner.yy",},
     {"name":"obj_Goblin","order":1,"path":"objects/obj_Goblin/obj_Goblin.yy",},
     {"name":"obj_Inn","order":1,"path":"objects/obj_Inn/obj_Inn.yy",},
     {"name":"obj_Projectile","order":1,"path":"objects/obj_Projectile/obj_Projectile.yy",},
-    {"name":"obj_EnemySpawner","order":7,"path":"objects/obj_EnemySpawner/obj_EnemySpawner.yy",},
     {"name":"scr_ranged_attack","order":1,"path":"scripts/scr_ranged_attack/scr_ranged_attack.yy",},
+    {"name":"spr_Active_Enemy_Spawner","order":16,"path":"sprites/spr_Active_Enemy_Spawner/spr_Active_Enemy_Spawner.yy",},
   ],
 }
