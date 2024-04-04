@@ -11,6 +11,8 @@
     {"name":"inst_59D569F1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6F1C9C43","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7DD6375D","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2A9653E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_19CD86A7","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +22,8 @@
         {"$GMRInstance":"","%Name":"inst_59D569F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59D569F1","objectId":{"name":"obj_Goblin","path":"objects/obj_Goblin/obj_Goblin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":64.0,},
         {"$GMRInstance":"","%Name":"inst_6F1C9C43","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F1C9C43","objectId":{"name":"obj_Arrow_Tower","path":"objects/obj_Arrow_Tower/obj_Arrow_Tower.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":256.0,},
         {"$GMRInstance":"","%Name":"inst_7DD6375D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7DD6375D","objectId":{"name":"obj_EnemySpawner","path":"objects/obj_EnemySpawner/obj_EnemySpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
+        {"$GMRInstance":"","%Name":"inst_2A9653E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A9653E","objectId":{"name":"obj_Arrow_Tower_Button","path":"objects/obj_Arrow_Tower_Button/obj_Arrow_Tower_Button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":576.0,},
+        {"$GMRInstance":"","%Name":"inst_19CD86A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19CD86A7","objectId":{"name":"obj_BuildManager","path":"objects/obj_BuildManager/obj_BuildManager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4286545791,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

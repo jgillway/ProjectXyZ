@@ -34,8 +34,8 @@ else {
 }
 
 if (spawner_active) {
-	image_alpha = 1;
+	visible = true;
 }
 else {
-	image_alpha = 0;	
+	visible = false;	
 }

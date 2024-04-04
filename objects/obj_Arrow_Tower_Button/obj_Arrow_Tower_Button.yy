@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_EnemySpawner",
+  "%Name":"obj_Arrow_Tower_Button",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_EnemySpawner",
+  "name":"obj_Arrow_Tower_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Build_Button",
+    "path":"objects/obj_Build_Button/obj_Build_Button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Active_Enemy_Spawner",
-    "path":"sprites/spr_Active_Enemy_Spawner/spr_Active_Enemy_Spawner.yy",
+    "name":"spr_Arrow_Tower_Button",
+    "path":"sprites/spr_Arrow_Tower_Button/spr_Arrow_Tower_Button.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
