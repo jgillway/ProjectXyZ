@@ -1,3 +1,6 @@
 /// @description Insert description here
-show_debug_message(string(build_mode_enabled));
-show_debug_message(string(build_object_name));
+if(build_mode_enabled && build_object_name = "" && build_object_sprite_name = "") {
+	build_mode_enabled = false;
+}
+
+
