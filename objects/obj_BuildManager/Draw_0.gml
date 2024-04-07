@@ -1,5 +1,5 @@
 if (build_mode_enabled && build_object_name != "" && build_object_sprite_name != "") {
-    // Get sprite
+    // Get sprite test test
     var _sprite = asset_get_index(build_object_sprite_name);
 
     // Position
