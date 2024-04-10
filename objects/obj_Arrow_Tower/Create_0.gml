@@ -1,4 +1,5 @@
 /// @description Insert description here
+event_inherited()
 name = "Arrow Tower";
 _health = 100;
 damage = 20;
