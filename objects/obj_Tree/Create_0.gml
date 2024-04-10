@@ -5,5 +5,7 @@ name = "Tree";
 type = "Woodcutting";
 ds_map_add(drops, "wood", 75);
 ds_map_add(drops, "apple", 25);
-quantity = 5;
+max_quantity = 10
+quantity = 10;
+respawn_rate = 10;
 
