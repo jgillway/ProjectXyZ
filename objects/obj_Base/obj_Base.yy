@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Goblin",
+  "%Name":"obj_Base",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Goblin",
+  "name":"obj_Base",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemies",
-    "path":"folders/Objects/enemies.yy",
+    "name":"buildings",
+    "path":"folders/Objects/buildings.yy",
   },
   "parentObjectId":{
-    "name":"obj_Enemy",
-    "path":"objects/obj_Enemy/obj_Enemy.yy",
+    "name":"obj_Building",
+    "path":"objects/obj_Building/obj_Building.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Goblin",
-    "path":"sprites/spr_Goblin/spr_Goblin.yy",
+    "name":"spr_Bae",
+    "path":"sprites/spr_Bae/spr_Bae.yy",
   },
   "spriteMaskId":null,
   "visible":true,

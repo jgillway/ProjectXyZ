@@ -2,7 +2,7 @@
 // Inherit the parent event
 event_inherited();
 
-name = "Goblin";
+name = "Zombie";
 level = 1;
 _health = 50;
 damage = 10;

@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Inn",
+  "%Name":"obj_Zombie",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Inn",
+  "name":"obj_Zombie",
   "overriddenProperties":[],
   "parent":{
-    "name":"buildings",
-    "path":"folders/Objects/buildings.yy",
+    "name":"enemies",
+    "path":"folders/Objects/enemies.yy",
   },
   "parentObjectId":{
-    "name":"obj_Building",
-    "path":"objects/obj_Building/obj_Building.yy",
+    "name":"obj_Enemy",
+    "path":"objects/obj_Enemy/obj_Enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Inn",
-    "path":"sprites/spr_Inn/spr_Inn.yy",
+    "name":"spr_Zombie",
+    "path":"sprites/spr_Zombie/spr_Zombie.yy",
   },
   "spriteMaskId":null,
   "visible":true,

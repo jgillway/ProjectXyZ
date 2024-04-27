@@ -3,6 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-name = "Inn";
+name = "Base";
 _health = 100;
-
+ZOI = 100;
