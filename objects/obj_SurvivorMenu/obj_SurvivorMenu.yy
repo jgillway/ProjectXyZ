@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Survivor",
+  "%Name":"obj_SurvivorMenu",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Survivor",
+  "name":"obj_SurvivorMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"survivors",
-    "path":"folders/Objects/survivors.yy",
+    "name":"UI",
+    "path":"folders/Objects/survivors/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_M_Survivor1",
-    "path":"sprites/spr_M_Survivor1/spr_M_Survivor1.yy",
+    "name":"spr_SurvivorMenu",
+    "path":"sprites/spr_SurvivorMenu/spr_SurvivorMenu.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

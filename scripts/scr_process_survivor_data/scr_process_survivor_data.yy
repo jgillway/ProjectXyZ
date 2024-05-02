@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_process_survivor_data",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_process_survivor_data",
+  "parent":{
+    "name":"Survivor",
+    "path":"folders/Scripts/Survivor.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

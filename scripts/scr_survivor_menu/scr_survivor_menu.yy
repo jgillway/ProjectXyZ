@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_survivor_menu",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_survivor_menu",
+  "parent":{
+    "name":"Survivor",
+    "path":"folders/Scripts/Survivor.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
