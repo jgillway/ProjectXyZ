@@ -78,7 +78,6 @@
     {"id":{"name":"scr_attack","path":"scripts/scr_attack/scr_attack.yy",},},
     {"id":{"name":"scr_drop_item","path":"scripts/scr_drop_item/scr_drop_item.yy",},},
     {"id":{"name":"scr_ranged_attack","path":"scripts/scr_ranged_attack/scr_ranged_attack.yy",},},
-    {"id":{"name":"scr_survivor_menu","path":"scripts/scr_survivor_menu/scr_survivor_menu.yy",},},
     {"id":{"name":"scr_process_survivor_data","path":"scripts/scr_process_survivor_data/scr_process_survivor_data.yy",},},
     {"id":{"name":"spr_Active_Enemy_Spawner","path":"sprites/spr_Active_Enemy_Spawner/spr_Active_Enemy_Spawner.yy",},},
     {"id":{"name":"spr_Arrow_Tower_Button","path":"sprites/spr_Arrow_Tower_Button/spr_Arrow_Tower_Button.yy",},},
