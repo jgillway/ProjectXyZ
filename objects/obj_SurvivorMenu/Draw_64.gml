@@ -11,11 +11,12 @@ draw_text(x + 10, y + 110, "Fatigue: " + string(fatigue));
 draw_text(x + 10, y + 130, "Damage: " + string(damage));
 draw_text(x + 10, y + 150, "current_job: " + string(current_job));
 
-var _offset = 0;
+// Job Priorities
+draw_text(x + 10, y + 170, "Gathering: " + string(ds_map_find_value(job_priority_map, "Gathering")));
 
-foreach(key, value, job_priority_map) {
-	
-	//lets do some bullshit here with job prio add a + - button and somehow add a listner 
-	
-	_offset += 20;
-}
+// Buttons
+var _button_width = 15;
+draw_rectangle(x + 150, y + 172, x + 150 + _button_width, y + 172 + _button_width, true);
+draw_text(x + 153, y + 169, "+");
+draw_rectangle(x + 180, y + 172, x + 180 + _button_width, y + 172 + _button_width, true);
+draw_text(x + 183, y + 169, "-");

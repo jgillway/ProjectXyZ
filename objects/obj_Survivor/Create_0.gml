@@ -12,5 +12,4 @@ hunger = 100;
 fatigue = 0;
 current_job = "None";
 job_priority_map = ds_map_create();
-job_priority_map[? "stone"] = 2;
-job_priority_map[? "wood"] = 0;
+job_priority_map[? "Gathering"] = 0;

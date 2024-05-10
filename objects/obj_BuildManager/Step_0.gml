@@ -15,7 +15,9 @@ if (build_mode_enabled) {
 	}
 	
 	if(mouse_check_button_pressed(mb_left)) {
-		if(!collision_detected) {
+		show_debug_message(string(within_ZOI));
+		show_debug_message(string(collision_detected));
+		if(!collision_detected && within_ZOI) {
 			// Get object and sprite
 			var _object = asset_get_index(build_object_name);
 		    var _sprite = asset_get_index(build_object_sprite_name);

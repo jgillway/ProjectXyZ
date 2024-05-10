@@ -26,13 +26,13 @@ if (build_mode_enabled && build_object_name != "" && build_object_sprite_name !=
 	draw_set_color(c_white); // Reset color for other drawings
 
 	// Check if the entire sprite's rectangle is within ZOI
-	var within_ZOI = rectangle_in_rectangle(
+	within_ZOI = rectangle_in_rectangle(
 	    _draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height,
 	    _base_rect_x, _base_rect_y, _base_rect_x + _base_rect_width, _base_rect_y + _base_rect_height
 	);
 
 	// Check for collisions with other objects
-	var collision_detected = (collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_Building, false, false)
+	collision_detected = (collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_Building, false, false)
 	                         || collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_Tower, false, false)
 	                         || collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_Enemy, false, false)
 	                         || collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_EnemySpawner, false, false)
@@ -44,27 +44,6 @@ if (build_mode_enabled && build_object_name != "" && build_object_sprite_name !=
 
 	// Draw building object sprite with alpha based on within ZOI and collision
 	draw_sprite_ext(_sprite, 0, _draw_x, _draw_y, 1, 1, 0, within_ZOI == 1 && !collision_detected ? c_green : c_red, 0.5);
-
-	
-	// Debug
-	if (collision_detected) {
-		show_debug_message("Collision detected with:");
-		if (collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_Building, false, false)) {
-			show_debug_message("obj_Building");
-		}
-		if (collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_Tower, false, false)) {
-			show_debug_message("obj_Tower");
-		}
-		if (collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_Enemy, false, false)) {
-			show_debug_message("obj_Enemy");
-		}
-		if (collision_rectangle(_draw_x, _draw_y, _draw_x + _sprite_width, _draw_y + _sprite_height, obj_EnemySpawner, false, false)) {
-			show_debug_message("obj_EnemySpawner");
-		}
-	}
-	if (!within_ZOI) {
-		show_debug_message("Object is outside ZOI");
-	}
 }
 else {
 	draw_set_alpha(1);
