@@ -11,12 +11,20 @@ draw_text(x + 10, y + 110, "Fatigue: " + string(fatigue));
 draw_text(x + 10, y + 130, "Damage: " + string(damage));
 draw_text(x + 10, y + 150, "current_job: " + string(current_job));
 
-// Job Priorities
+// Job Priority buttons
+
+// Gathering
 draw_text(x + 10, y + 170, "Gathering: " + string(ds_map_find_value(job_priority_map, "Gathering")));
 
-// Buttons
-var _button_width = 15;
-draw_rectangle(x + 150, y + 172, x + 150 + _button_width, y + 172 + _button_width, true);
-draw_text(x + 153, y + 169, "+");
-draw_rectangle(x + 180, y + 172, x + 180 + _button_width, y + 172 + _button_width, true);
-draw_text(x + 183, y + 169, "-");
+if (mouse_check_button_pressed(mb_left) && mouse_x >= x + 10 && mouse_x <= x + 150 && mouse_y > y + 170 && mouse_y < y + 190) {
+    var current_gathering_value = ds_map_find_value(job_priority_map, "Gathering");
+
+    if (current_gathering_value) {
+		current_gathering_value = 0;
+    }
+    else {
+		current_gathering_value = 1;
+	}
+
+	job_priority_map[? "Gathering"] = current_gathering_value;
+}
