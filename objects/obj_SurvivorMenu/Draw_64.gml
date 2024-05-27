@@ -24,6 +24,7 @@ if (mouse_check_button_pressed(mb_left) && mouse_x >= x + 10 && mouse_x <= x + 1
     }
     else {
 		current_gathering_value = 1;
+		obj_Survivor.job_timer = 10;
 	}
 
 	job_priority_map[? "Gathering"] = current_gathering_value;

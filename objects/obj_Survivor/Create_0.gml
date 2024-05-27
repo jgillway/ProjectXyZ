@@ -11,5 +11,7 @@ move_speed = 5;
 hunger = 100;
 fatigue = 0;
 current_job = "None";
+job_timer = 10;
+job_in_progress = false;
 job_priority_map = ds_map_create();
 job_priority_map[? "Gathering"] = 0;
